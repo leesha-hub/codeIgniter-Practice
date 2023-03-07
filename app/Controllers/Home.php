@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        echo "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        echo "----------------------------";
         exit;
         return view('welcome_message');
     }

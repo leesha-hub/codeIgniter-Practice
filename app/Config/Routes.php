@@ -37,8 +37,17 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
-// $routes->get('/', 'Home::index');
-$routes->get('/', 'Board::index');
+
+/*
+라우팅 공부중
+http://ci4doc.cikorea.net/incoming/routing.html
+*/ 
+
+$routes->get('/', 'Home::index');
+$routes->get('board/', 'Board::index');
+$routes->get('board/list', 'Board::list');
+$routes->get('board/(:any)', 'Board::view');
+$routes->get('board/(:num)', 'Board::view/$1');
 
 /*
  * --------------------------------------------------------------------
@@ -53,6 +62,7 @@ $routes->get('/', 'Board::index');
  * You will have access to the $routes object within that file without
  * needing to reload it.
  */
+
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
     require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }
