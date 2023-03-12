@@ -10,17 +10,13 @@ $routes = Services::routes();
  * Router Setup
  * --------------------------------------------------------------------
  */
-// $routes->setDefaultNamespace('App\Controllers');
-// $routes->setDefaultController('Home');
-// $routes->setDefaultMethod('index');
-// $routes->setTranslateURIDashes(false);
-// $routes->set404Override();
 
 $routes->setDefaultNamespace('App\Controllers');
 $routes->setDefaultController('Board');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
+$routes->setAutoRoute(false);
 
 // The Auto Routing (Legacy) is very dangerous. It is easy to create vulnerable apps
 // where controller filters or CSRF protection are bypassed.
@@ -37,16 +33,18 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
-
 /*
 라우팅 공부중
 http://ci4doc.cikorea.net/incoming/routing.html
+
+CI 포럼
+http://sample4.cikorea.net/
 */ 
 
 $routes->get('/', 'Home::index');
 $routes->get('board/', 'Board::index');
 $routes->get('board/list', 'Board::list');
-$routes->get('board/(:any)', 'Board::view');
+// $routes->get('board/(:any)', 'Board::view');
 $routes->get('board/(:num)', 'Board::view/$1');
 
 /*

@@ -21,6 +21,10 @@ class Board extends BaseController
     public function view()
     {
         echo "33333333333333333333333";
+
+        print_r($this->request);
+        print_r($this->request->getMethod());
+
         exit;
         return view('index');
     }
