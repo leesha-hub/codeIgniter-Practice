@@ -18,13 +18,20 @@ class Board extends BaseController
         return view('index');
     }
 
-    public function view()
+    public function view($num)
     {
-        echo "33333333333333333333333";
-
-        print_r($this->request);
-        print_r($this->request->getMethod());
-
+        // echo "33333333333333333333333";
+        // echo $num;
+        // print_r($this->request->getMethod());
+        
+        echo "<pre>";
+        // echo var_dump($this->request);
+        echo "</pre>";
+        
+        echo "<pre>";
+        echo var_dump($this->request->uri);
+        echo "</pre>";
+        
         exit;
         return view('index');
     }
