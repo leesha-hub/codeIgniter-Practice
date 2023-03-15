@@ -36,7 +36,8 @@ $routes->setAutoRoute(false);
 /*
 라우팅 공부중
 http://ci4doc.cikorea.net/incoming/routing.html
-
+밴치마크 공부중
+http://ci4doc.cikorea.net/testing/benchmark.html
 CI 포럼
 http://sample4.cikorea.net/
 */ 

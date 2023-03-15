@@ -20,16 +20,20 @@ class Board extends BaseController
 
     public function view($num)
     {
-        // echo "33333333333333333333333";
+        echo "33333333333333333333333";
         // echo $num;
         // print_r($this->request->getMethod());
         
+        //echo $this->uri->segment(1);
+
+        $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
+
         echo "<pre>";
-        // echo var_dump($this->request);
+        echo var_dump($uriSegments);
         echo "</pre>";
         
         echo "<pre>";
-        echo var_dump($this->request->uri);
+        //echo var_dump($this->uri->segment(1));
         echo "</pre>";
         
         exit;
