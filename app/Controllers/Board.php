@@ -31,9 +31,9 @@ class Board extends BaseController
         echo "<pre>";
         echo var_dump($uriSegments);
         echo "</pre>";
-        
+
         echo "<pre>";
-        //echo var_dump($this->uri->segment(1));
+        //echo var_dump($this->uri->segment_array());
         echo "</pre>";
         
         exit;

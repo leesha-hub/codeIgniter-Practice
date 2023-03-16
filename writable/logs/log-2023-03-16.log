@@ -1,0 +1,24 @@
+CRITICAL - 2023-03-16 11:45:29 --> Call to a member function segment_array() on null
+in APPPATH\Controllers\Board.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Board->view('123123')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 11:45:56 --> Call to a member function segment_array() on null
+in APPPATH\Controllers\Board.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Board->view('123123')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 11:48:14 --> Call to a member function segment_array() on null
+in APPPATH\Controllers\Board.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Board->view('123123')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 11:48:15 --> Call to a member function segment_array() on null
+in APPPATH\Controllers\Board.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Board->view('123123')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Board))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
