@@ -40,6 +40,8 @@ http://ci4doc.cikorea.net/incoming/routing.html
 http://ci4doc.cikorea.net/testing/benchmark.html
 CI 포럼
 http://sample4.cikorea.net/
+
+test
 */ 
 
 $routes->get('/', 'Home::index');
