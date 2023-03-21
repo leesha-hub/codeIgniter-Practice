@@ -40,8 +40,6 @@ http://ci4doc.cikorea.net/incoming/routing.html
 http://ci4doc.cikorea.net/testing/benchmark.html
 CI 포럼
 http://sample4.cikorea.net/
-
-test
 */ 
 
 $routes->get('/', 'Home::index');
@@ -54,9 +52,9 @@ $routes->get('board/(:num)', 'Board::view/$1');
 모든 표준 HTTP 동사(GET, POST, PUT, DELETE, OPTIONS, etc)를 사용할 수 있습니다.
 */
 
-$routes->post('products', 'Product::feature');
-$routes->put('products/1', 'Product::feature');
-$routes->delete('products/1', 'Product::feature');
+$routes->post('product', 'Product::feature');
+$routes->put('product/1', 'Product::feature');
+$routes->delete('product/1', 'Product::feature');
 
 /*
  * --------------------------------------------------------------------
