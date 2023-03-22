@@ -13,7 +13,7 @@ class Product extends BaseController
 
     public function feature()
     {
-        echo "22222222222222222222222";
+        echo "merge_test";
         exit;
         return view('index');
     }
