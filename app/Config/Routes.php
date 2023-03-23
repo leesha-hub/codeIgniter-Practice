@@ -40,7 +40,9 @@ http://ci4doc.cikorea.net/incoming/routing.html
 http://ci4doc.cikorea.net/testing/benchmark.html
 CI 포럼
 http://sample4.cikorea.net/
-*/ 
+PHP 메뉴얼
+https://php.365ok.co.kr/index.php
+*/
 
 $routes->get('/', 'Home::index');
 $routes->get('board/', 'Board::index');
