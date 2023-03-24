@@ -6,7 +6,7 @@ class Board extends BaseController
 {
     public function index()
     {
-        echo "11111111111111111111111";
+        echo "rebase_test";
         exit;
         return view('index');
     }
