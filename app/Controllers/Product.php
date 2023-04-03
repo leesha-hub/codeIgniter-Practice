@@ -20,7 +20,7 @@ class Product extends BaseController
 
     public function feature2($num)
     {
-        echo "33333333333333333333333";
+        echo "develop rebase";
         // echo $num;
         // print_r($this->request->getMethod());
         
