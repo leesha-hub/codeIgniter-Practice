@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
-        echo "master rebase commit";
+        echo "master commit";
         exit;
         return view('welcome_message');
     }
