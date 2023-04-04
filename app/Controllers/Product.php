@@ -6,7 +6,7 @@ class Product extends BaseController
 {
     public function index()
     {
-        echo "11111111111111111111111";
+        echo "111111111111111111111111";
         exit;
         return view('index');
     }
