@@ -11,10 +11,26 @@
 <!--       style="width: 100%;"-->
 <!--</audio>-->
 
-<?php
-//echo 2222;
-?>
 <!--preload="auto"-->
+
+<style>
+    @font-face { 
+        font-family: 'font-1';
+        src: url('http://localhost/codeIgniter-practice/test.ttf') format('woff');
+        font-weight: normal;
+        font-style: normal; 
+    }
+
+    @font-face { 
+        font-family: 'font-2';
+        src: url('http://localhost/codeIgniter-practice/test.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal; 
+    }
+</style>
+
+<textarea class="fontInputBlockText" value="" style="font-family:font-1">ttf 적용</textarea>
+<textarea class="fontInputBlockText" value="" style="font-family:font-2">woff2 적용</textarea>
 
 <audio id="myAudio"
        autoplay="autoplay"
@@ -22,7 +38,7 @@
        src="https://music.gettyimagesbank.com/sample/202210/JMT102200558.mp3"
        controls
        style="width: 100%;"
-</audio>
+>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -32,4 +48,4 @@
         myAudio.play(); // 음원 재생
         myAudio.pause(); // 일시 정지
     });
-</script>
+</script> -->
