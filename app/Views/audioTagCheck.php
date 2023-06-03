@@ -23,7 +23,7 @@
 
     @font-face { 
         font-family: 'font-2';
-        src: url('http://localhost/codeIgniter-practice/1162478.woff2') format('woff2');
+        src: url('http://localhost/codeIgniter-practice/1162478.woff') format('woff');
         font-weight: normal;
         font-style: normal; 
     }
